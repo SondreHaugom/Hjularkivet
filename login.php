@@ -37,6 +37,7 @@
     <a class="registrer" href="registrer.php">Registrer </a>
 </form>
 <?php
+
     session_start();
     if (isset($_SESSION['hjularkivet']) && $_SESSION['hjularkivet'] == true){
         echo" Du er nå logget inn";
